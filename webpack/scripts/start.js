@@ -1,4 +1,4 @@
-const {spawn} = require('child_process');//用于创建子进程
+const { spawn } = require('child_process');//用于创建子进程
 const constantCode = require('./constant');
 const chalk = require('chalk');//为控制台输出的信息增加点色彩
 const log = console.log;
